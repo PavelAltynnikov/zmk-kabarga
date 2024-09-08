@@ -77,10 +77,10 @@
                 };
                 layer_1 {
                         bindings = <
-&kp ENTER  &none               &none              &none              &kp RA(LBKT)         &kp RA(RBKT)         &none       &none             &none          &none          &none               &none
-&kp TAB    &hm LCTRL NUMBER_7  &hm LWIN NUMBER_2  &hm LALT NUMBER_4  &hm LSHIFT NUMBER_9  &kp NUMBER_0         &kp PLUS    &hm RSHIFT MINUS  &hm RALT PLUS  &hm RWIN BSLH  &hm RCTRL NUMBER_8  &none
-&kp SPACE  &kp NUMBER_1        &kp RA(SLASH)      &kp NUMBER_3       &kp RA(SQT)          &none                &none       &kp RA(COMMA)     &kp RA(DOT)    &kp NUMBER_5   &kp NUMBER_6        &none
-                                                  &none              &none                &none                &lt 2 BSPC  &lt 2 DEL         &lt 2 ESC
+&kp ENTER  &none               &none              &none              &kp RA(LBKT)         &kp RA(RBKT)         &none     &none             &none          &none          &none               &none
+&kp TAB    &hm LCTRL NUMBER_7  &hm LWIN NUMBER_2  &hm LALT NUMBER_4  &hm LSHIFT NUMBER_9  &kp NUMBER_0         &kp PLUS  &hm RSHIFT MINUS  &hm RALT PLUS  &hm RWIN BSLH  &hm RCTRL NUMBER_8  &none
+&kp SPACE  &kp NUMBER_1        &kp RA(SLASH)      &kp NUMBER_3       &kp RA(SQT)          &none                &none     &kp RA(COMMA)     &kp RA(DOT)    &kp NUMBER_5   &kp NUMBER_6        &none
+                                                  &none              &none                &none                &kp BSPC  &kp DEL           &kp ESC
                         >;
                 };
                 layer_2 {
