@@ -67,7 +67,7 @@
         keymap {
                 compatible = "zmk,keymap";
 
-                default_layer {
+                Default {
                         bindings = <
 &kp TILDE  &kp Q        &kp W       &kp E        &kp R         &kp T            &kp Y           &kp U           &kp I       &kp O       &kp P           &kp LBKT
 &none      &hm LCTRL A  &hm LWIN S  &hm LALT D   &hm LSHIFT F  &kp G            &kp H           &hm RSHIFT J    &hm RALT K  &hm RWIN L  &hm RCTRL SEMI  &kp SQT
@@ -75,7 +75,7 @@
                                     &lt 6 ENTER  &lt 4 TAB     &lt 1 SPACE      &lt 2 BSPC      &lt 3 DEL       &lt 5 ESC
                         >;
                 };
-                layer_1 {
+                Symbols {
                         bindings = <
 &kp ENTER  &none               &none              &none              &kp RA(LBKT)         &kp RA(RBKT)         &none     &none             &none          &none          &none               &none
 &kp TAB    &hm LCTRL NUMBER_7  &hm LWIN NUMBER_2  &hm LALT NUMBER_4  &hm LSHIFT NUMBER_9  &kp NUMBER_0         &kp PLUS  &hm RSHIFT MINUS  &hm RALT PLUS  &hm RWIN BSLH  &hm RCTRL NUMBER_8  &none
@@ -83,7 +83,7 @@
                                                   &none              &none                &none                &kp BSPC  &kp DEL           &kp ESC
                         >;
                 };
-                layer_2 {
+                NumPad {
                         bindings = <
 &kp ESC   &none      &none     &none              &none                &none             &kp KP_NUMLOCK   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_SLASH  &kp KP_ASTERISK
 &kp DEL   &kp LCTRL  &kp LWIN  &hm LALT NUMBER_6  &hm LSHIFT NUMBER_5  &none             &kp EQUAL        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS  &kp KP_PLUS
@@ -91,7 +91,7 @@
                                &kp ENTER          &kp TAB              &kp SPACE         &none            &none            &none
                         >;
                 };
-                layer_3 {
+                Navigation {
                         bindings = <
 &none  &none      &none     &none      &none       &none          &none     &none          &none      &none      &none         &none  
 &none  &kp LCTRL  &kp LWIN  &kp LALT   &kp LSHIFT  &none          &kp LEFT  &kp DOWN       &kp UP     &kp RIGHT  &kp K_MENU    &kp INSERT
@@ -99,7 +99,7 @@
                             &kp ENTER  &kp TAB     &kp SPACE      &none     &none          &none
                         >;
                 };
-                layer_4 {
+                Functions {
                         bindings = <
 &none  &none  &none  &none  &none  &none        &kp PRINTSCREEN  &kp F7  &kp F8  &kp F9  &kp F10  &none  
 &none  &none  &none  &none  &none  &none        &kp SCROLLLOCK  &kp F4  &kp F5  &kp F6  &kp F11  &none
@@ -107,7 +107,7 @@
                      &none  &none  &none        &none  &none  &none
                         >;
                 };
-                layer_5 {
+                Mouse {
                         bindings = <
 &none  &none  &none  &none  &none  &none        &none  &none  &none  &none  &none  &none  
 &none  &none  &none  &none  &none  &none        &none  &none  &none  &none  &none  &none
@@ -115,7 +115,7 @@
                      &none  &none  &none        &none  &none  &none
                         >;
                 };
-                layer_6 {
+                BlueTooth {
                         bindings = <
 &none  &none  &none  &none  &none  &none        &none  &none  &none  &none  &none  &none  
 &none  &none  &none  &none  &none  &none        &none  &none  &none  &none  &none  &none
