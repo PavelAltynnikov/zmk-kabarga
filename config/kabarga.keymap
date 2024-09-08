@@ -85,10 +85,10 @@
                 };
                 layer_2 {
                         bindings = <
-&none  &none  &none  &none  &none  &none        &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none        &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none        &none  &none  &none  &none  &none  &none
-                     &none  &none  &none        &none  &none  &none
+&kp ESC   &none      &none     &none              &none                &none             &kp KP_NUMLOCK   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_SLASH  &kp KP_ASTERISK
+&kp DEL   &kp LCTRL  &kp LWIN  &hm LALT NUMBER_6  &hm LSHIFT NUMBER_5  &none             &kp EQUAL        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS  &kp KP_PLUS
+&kp BSPC  &none      &none     &none              &none                &none             &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_COMMA  &kp KP_DOT
+                               &kp ENTER          &kp TAB              &kp SPACE         &none            &none            &none
                         >;
                 };
         };
