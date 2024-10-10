@@ -71,24 +71,24 @@
 
                 Default {
                         bindings = <
-&kp GRAVE   &kp Q        &kp W       &kp E       &kp R         &kp T            &kp Y           &kp U           &kp I       &kp O       &kp P           &kp LBKT
-&none       &hm LCTRL A  &hm LWIN S  &hm LALT D  &hm LSHIFT F  &kp G            &kp H           &hm RSHIFT J    &hm RALT K  &hm RWIN L  &hm RCTRL SEMI  &kp SQT
-&lt 6 CAPS  &kp Z        &kp X       &kp C       &kp V         &kp B            &kp N           &kp M           &kp RBKT    &kp FSLH    &kp COMMA       &kp DOT
-                                     &kp ENTER   &lt 4 TAB     &lt 1 SPACE      &lt 2 BSPC      &lt 3 DEL       &lt 5 ESC
+&kp GRAVE   &kp Q        &kp W       &kp E       &kp R         &kp T            &kp Y       &kp U         &kp I       &kp O       &kp P           &kp LBKT
+&none       &hm LCTRL A  &hm LWIN S  &hm LALT D  &hm LSHIFT F  &kp G            &kp H       &hm RSHIFT J  &hm RALT K  &hm RWIN L  &hm RCTRL SEMI  &kp SQT
+&lt 6 CAPS  &kp Z        &kp X       &kp C       &kp V         &kp B            &kp N       &kp M         &kp RBKT    &kp FSLH    &kp COMMA       &kp DOT
+                                     &kp ENTER   &lt 4 TAB     &lt 1 SPACE      &lt 2 BSPC  &lt 3 DEL     &lt 5 ESC
                         >;
                 };
                 Symbols {
                         bindings = <
-&kp ENTER  &none               &none              &none              &kp RA(LBKT)         &kp RA(RBKT)         &none     &none             &none          &none          &none               &none
+&kp ENTER  &none               &none              &none              &kp RA(LBKT)         &kp RA(RBKT)         &none      &none             &none          &none          &none               &none
 &kp TAB    &hm LCTRL NUMBER_7  &hm LWIN NUMBER_2  &hm LALT NUMBER_4  &hm LSHIFT NUMBER_9  &kp NUMBER_0         &kp EQUAL  &hm RSHIFT MINUS  &hm RALT PLUS  &hm RWIN BSLH  &hm RCTRL NUMBER_8  &none
-&kp SPACE  &kp NUMBER_1        &kp RA(SLASH)      &kp NUMBER_3       &kp RA(SQT)          &none                &none     &kp RA(COMMA)     &kp RA(DOT)    &kp NUMBER_5   &kp NUMBER_6        &none
-                                                  &none              &none                &none                &kp BSPC  &kp DEL           &kp ESC
+&kp SPACE  &kp NUMBER_1        &kp RA(SLASH)      &kp NUMBER_3       &kp RA(SQT)          &none                &none      &kp RA(COMMA)     &kp RA(DOT)    &kp NUMBER_5   &kp NUMBER_6        &none
+                                                  &none              &none                &none                &kp BSPC   &kp DEL           &kp ESC
                         >;
                 };
                 NumPad {
                         bindings = <
 &kp ESC   &none      &none     &none              &none                &none             &kp KP_NUMLOCK   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_SLASH  &kp KP_ASTERISK
-&kp DEL   &kp LCTRL  &kp LWIN  &hm LALT NUMBER_6  &hm LSHIFT NUMBER_5  &none             &kp EQUAL     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS  &kp KP_PLUS
+&kp DEL   &kp LCTRL  &kp LWIN  &hm LALT NUMBER_6  &hm LSHIFT NUMBER_5  &none             &kp EQUAL        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS  &kp KP_PLUS
 &kp BSPC  &none      &none     &none              &none                &none             &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_COMMA  &kp KP_DOT
                                &kp ENTER          &kp TAB              &kp SPACE         &none            &none            &none
                         >;
