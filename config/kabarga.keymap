@@ -95,9 +95,9 @@
                 };
                 Navigation {
                         bindings = <
-&none  &none      &none     &none      &none       &none          &none     &none          &none      &none      &none         &none  
-&none  &kp LCTRL  &kp LWIN  &kp LALT   &kp LSHIFT  &none          &kp LEFT  &kp DOWN       &kp UP     &kp RIGHT  &kp K_MENU    &kp INSERT
-&none  &none      &none     &none      &none       &none          &kp HOME  &kp PAGE_DOWN  &kp PG_UP  &kp END    &none         &kp DEL
+&none  &none      &none     &none      &none       &none          &none     &none          &none      &none      &none        &none  
+&none  &kp LCTRL  &kp LWIN  &kp LALT   &kp LSHIFT  &none          &kp LEFT  &kp DOWN       &kp UP     &kp RIGHT  &kp K_CMENU  &kp INSERT
+&none  &none      &none     &none      &none       &none          &kp HOME  &kp PAGE_DOWN  &kp PG_UP  &kp END    &none        &kp DEL
                             &kp ENTER  &kp TAB     &kp SPACE      &none     &none          &none
                         >;
                 };
