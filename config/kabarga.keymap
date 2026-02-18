@@ -147,23 +147,23 @@
                         bindings = <
 &none  &none  &none  &none  &none  &none        &none  &none  &none  &none  &none  &none  
 &none  &none  &none  &to 9  &to 8  &none        &none  &to 8  &to 9  &none  &none  &none
-&none  &none  &none  &none  &none  &none        &none  &none  &none  &none   &none  &none
+&none  &none  &none  &none  &none  &none        &none  &none  &none  &none  &none  &none
                      &none  &none  &none        &none  &none  &none
                         >;
                 };
                 FPS {
                         bindings = <
-&kp ESC    &kp T       &kp Q  &kp W  &kp E     &kp R       &kp Y      &kp F1       &kp F2        &kp F3        &kp U  &kp I  
-&kp TAB    &kp G       &kp A  &kp S  &kp D     &kp F       &kp H      &kp NUMBER_4 &kp NUMBER_5  &kp NUMBER_6  &kp J  &kp K
-&kp LCTRL  &kp LSHIFT  &kp Z  &kp X  &kp C     &kp V       &kp N      &kp NUMBER_1 &kp NUMBER_2  &kp NUMBER_3  &kp M  &kp L
+&kp ESC    &kp T       &kp Q  &kp W  &kp E     &kp R       &kp Y      &kp F1       &kp F2        &kp F3        &kp LA(F1)   &kp LA(Z)
+&kp TAB    &kp G       &kp A  &kp S  &kp D     &kp F       &kp H      &kp NUMBER_4 &kp NUMBER_5  &kp NUMBER_6  &kp F12      &kp LA(F8)
+&kp LCTRL  &kp LSHIFT  &kp Z  &kp X  &kp C     &kp V       &kp N      &kp NUMBER_1 &kp NUMBER_2  &kp NUMBER_3  &kp LC(F11)  &kp LA(F9)
                               &kp B  &kp LALT  &kp SPACE   &kp ENTER  &kp LWIN     &to 0
                         >;
                 };
                 HOTS {
                         bindings = <
-&kp ESC    &kp NUMBER_1 &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &none  &none     &none  &none  &none  &none  
-&kp TAB    &kp Q        &kp W         &kp E         &kp D         &kp R         &none  &none     &none  &none  &none  &none
-&kp LCTRL  &kp A        &kp H         &kp F         &kp B         &kp V         &none  &none     &none  &none  &none  &none
+&kp ESC    &kp NUMBER_1 &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &none  &none     &none  &none  &kp LA(F1)   &kp LA(Z)  
+&kp TAB    &kp Q        &kp W         &kp E         &kp D         &kp R         &none  &none     &none  &none  &kp F12      &kp LA(F8)
+&kp LCTRL  &kp A        &kp H         &kp F         &kp B         &kp V         &none  &none     &none  &none  &kp LC(F11)  &kp LA(F9)
                                       &kp Z         &kp SPACE     &kp LALT      &kp L  &kp LWIN  &to 0
                         >;
                 };
